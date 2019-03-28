@@ -1,6 +1,7 @@
 image: Visual Studio 2017
 configuration: Release
 build:
+  project: AppveyorReproBox.sln
   verbosity: minimal
 install:
   - cd %APPVEYOR_BUILD_FOLDER%
