@@ -8,6 +8,7 @@ namespace Tests
         [SetUp]
         public void Setup()
         {
+            Console.OutputEncoding = System.Text.Encoding.UTF8;
         }
 
         [Test]
